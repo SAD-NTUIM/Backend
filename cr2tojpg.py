@@ -7,7 +7,7 @@ from PIL import Image
   
 
 def img_conv(filename):
-    img_path = '../img/' + filename;
+    img_path = '../img/' + filename
     base_name = os.path.splitext(filename)[0]
 
     with rawpy.imread(img_path) as raw:
